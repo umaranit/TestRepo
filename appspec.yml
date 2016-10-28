@@ -1,8 +1,9 @@
 version: 0.0
 os: windows
 files:
-  - source: .\index.html
-            .\index2.html
+  - source: .\index.html           
+    destination: c:\test
+  - source: .\index2.html           
     destination: c:\test
 hooks:
   BeforeInstall:
